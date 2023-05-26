@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>테라스하우스</title>
+		<title>숲속 테라스하우스</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -159,9 +159,31 @@
 					</div>
 				</div>
 			</section>
+			
+			<section id="two" class="wrapper style5">
+				<div class="inner">
+					<header class="align-center">
+						<p class="special">Nam vel ante sit amet libero scelerisque facilisis eleifend vitae urna</p>
+						<h2>찾아오시는길</h2>
+					</header>
+					<div class="gallery">
+						<div id="daumRoughmapContainer1685076084925" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+					</div>
+					<!-- 2. 설치 스크립트 -->
+					<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
-
-		<!-- Footer -->
+					<!-- 3. 실행 스크립트 -->
+					<script charset="UTF-8">
+						new daum.roughmap.Lander({
+							"timestamp" : "1685076084925",
+							"key" : "2ex7m",
+							"mapWidth" : "640",
+							"mapHeight" : "360"
+						}).render();
+					</script>
+				</div>
+			</section>
+			<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
 					<ul class="icons">
